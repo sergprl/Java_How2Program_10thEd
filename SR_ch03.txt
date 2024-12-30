@@ -1,0 +1,38 @@
+3.1
+a) public
+b) class
+c) new
+d) type, instance variable name
+e) default package
+f) float, double
+g) 15 Double-precision
+h) nextDouble()
+i) modifier
+j) void
+k) nextLine()
+l) java.lang
+m) import statement
+n) floating-point number
+o) single
+p) %f
+q) primitive, reference
+
+3.2
+a) False, the first letter of a method name is lower case
+b) True
+c) True
+d) False, only reference type variables can do that
+e) False, they are known as local variables and can only be used within the method that created them
+f) True
+g) False, only instance variables are initialized by default
+h) True
+i) True
+j) True
+k) False, they are type double by default
+
+3.3 A local variable only exists and can be created within a method's body and it isn't initialized by default. 
+An instance variable exists as long as the Object where it is located exists and it is initialized by default.
+
+3.4 The method parameter specifies the type and name of the variable which will be used within the method.
+It is specified at the method header. An argument is the value for a method parameter. It is passed to the corresponding
+parameter when a method is called

@@ -1,0 +1,24 @@
+3.5
+The keyword "new" tells java to save space in memory for a new object. It also calls the constructor of the 
+object's class in order to create an instance of the object.
+
+3.6
+A default constructor is the constructor that is assigned to a class whose constructor was not defined by the
+programmer. When a default constructor is utilized by an object, the instance values are given their default value.
+The default value of char, int, long, byte, float, double, and short is 0. The one for booleans is "false"
+
+3.7
+The purpose of instance variables is to save information that belongs to an object, and specifically to that object.
+
+3.8
+Because both belong to the java.lang package, which is  automatically imported to every Java application.
+
+3.9
+A program could use class Scanner without importing it by using the fully qualified class name. In the case of 
+scanner, it would be:
+java.util.Scanner input = new java.util.Scanner(System.in);
+
+3.10
+A class might provide a set method and a get method for an instance variables to execute "information hiding" which
+protects the information of an object from tampering by external classes. This way, the value of the variable cannot 
+be set to a wrong value or the value of the variable can be displayed with a specific format.
