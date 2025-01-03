@@ -60,4 +60,11 @@ public class Date {
 		System.out.printf("%d/%d/%d%n%n", day, month, year);
 	}
 	
+	// display date in dd/mm/yyyy format
+	public String getDateString()
+	{
+		// print a formatted string
+		return String.format("%d/%d/%d%", day, month, year);
+	}
+	
 }
